@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="163.0" prefWidth="286.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddController">
+   <children>
+      <Button fx:id="OK" layoutX="195.0" layoutY="138.0" mnemonicParsing="false" onAction="#add_clickOK" text="OK" />
+      <Label layoutX="32.0" layoutY="49.0" text="Eng" />
+      <Label layoutX="34.0" layoutY="98.0" text="Vie" />
+      <TextField fx:id="add_word" layoutX="79.0" layoutY="45.0" />
+      <TextField fx:id="add_explain" layoutX="79.0" layoutY="103.0" />
+      <Label layoutX="120.0" layoutY="14.0" text="Thêm Từ" />
+   </children>
+</AnchorPane>
